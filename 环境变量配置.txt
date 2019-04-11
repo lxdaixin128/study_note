@@ -1,0 +1,12 @@
+# 环境变量配置
+vi /etc/profile
+
+# 在最后一行添加以下内容
+PATH=$PATH:/usr/local/python3/bin
+export PATH
+
+# 执行以下代码
+source /etc/profile
+
+# 查询环境变量
+echo $PATH
